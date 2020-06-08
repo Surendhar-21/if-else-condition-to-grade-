@@ -1,0 +1,27 @@
+#include<studio.h>
+main()
+{
+  int mark;
+  Printf("enter student mark");
+   Scanf("%d",&mark);
+    if(mark==(85<100))
+     { 
+    Printf("Grade A");
+          }
+     elseif (mark==(70<84))
+       {
+         Printf("Grade B");
+         }
+      elseif (mark==(55<69))
+        {
+          Printf ("Grade c");
+          }
+        elseif (mark==(40<54))
+        {
+          Printf("Grade D");
+           }
+          else(mark>48)
+        { 
+          Printf ("GradeF");
+           }
+}
